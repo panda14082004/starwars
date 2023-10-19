@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "open sans";
+    src: url(../fonts/opensans-condensed-regular.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "open sans";
+    src: url(../fonts/opensans-condensed-medium.woff);
+    font-weight: 500;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background: url(../image/Box.png) 0 0 / cover;
+    height:100vh;
+}
+
+.container {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-info {
+    margin: 100px 0 0;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav {
+    margin: 0 40px 0 auto;
+}
+
+.nav-link{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.4px;
+margin: 0 10px;
+}
+
+.hero-pre-title {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 2.8px;
+}
+
+.hero-title {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 106px; /* 117.778% */
+}
+
+.btn {
+    width: 172px;
+height: 48px;
+flex-shrink: 0;
+    border-radius: 49.5px;
+background: #FFC80A;
+}
+
+
+
+
+.footer {
+    background: #000;
+    padding: 60px;
+}
+
+.footer__blocks {
+}
+
+.footer_block_title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
